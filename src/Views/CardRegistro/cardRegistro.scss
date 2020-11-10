@@ -1,0 +1,43 @@
+.card-registro{
+    height: 235px;
+    width: 330px;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    background-color: white;
+    box-shadow: 1px 2px 11px lightgrey;
+    border-radius: 12px;
+    .title-registro{
+        color: #0ea0d5;
+        font-weight: bold;
+        text-align: center;
+        font-size: 19px;
+        margin: 60px 70px 20px;
+    }
+    .text-muted{
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+@media  screen and (max-width: 1025px) {
+    .card-registro{
+        right:2%;
+    }
+}
+@media  screen and (max-width: 769px) {
+    .card-registro{
+        top:35%;
+        height:185px;
+        .title-registro{
+            margin: 30px 70px 20px;
+        }
+    }
+}
+@media screen and (max-width: 480px){
+    .card-registro{
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width:90%;
+    }
+}

@@ -1,0 +1,41 @@
+.navbar{
+    position: fixed;
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+        button:focus{
+            outline:0;
+        }
+        ul{
+            margin-right:22%;
+        }
+        ul li{
+            margin: 0 5px;
+        }
+        ul li a {
+            color: white !important;
+            font-size: 0.7em;
+            font-weight: bold;
+        }
+        ul li a:hover {
+            color:#00a8e0 !important;
+        }
+        ul li.active>.nav-link{
+            color:#00a8e0 !important;
+        }
+        @media  screen and (max-width: 769px) {
+            top:0;
+            ul{
+                margin-right:0;
+            }
+        }
+}
+.nav-bg-darkBlue{
+    background-color:#011b33 !important;
+    top:0;
+    transition:all 1s ease;
+}
+.bg-blue{
+    background-color:#011b33;
+}

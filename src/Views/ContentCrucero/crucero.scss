@@ -1,0 +1,144 @@
+section{
+    .nube1{
+        position:absolute;
+        width:10%;
+        top: 10%;
+        left: 45%;
+    }
+    .nube2{
+        position:absolute;
+        width:10%;
+        top: 28%;
+        right: 7%;
+    }
+    .nube3{
+        position:absolute;
+        width:10%;
+        top: 38%;
+        left: 10%;
+    }
+    .gana{
+        position: absolute;
+        top: 20%;
+        left: 27%;
+        width: 14%;
+    }
+    .premier{
+        position: absolute;
+        top: 38%;
+        left: 27%;
+        width: 14%;
+    }
+    .letterY{
+        color: #c9d0d5;
+        position: absolute;
+        top: 42%;
+        left: 27%;
+        width: 14%;
+        font-size: 1vw;
+        margin-bottom:0;
+    }
+    .crucero{
+        position: absolute;
+        top: 44%;
+        left: 29%;
+        width: 10%;
+    }
+    .texto-crucero{
+        position: absolute;
+        top: 57%;
+        left: 21%;
+        width: 27%;
+        color: white;
+        font-size: 1vw;
+        font-weight: bold;
+        line-height: 17px;
+        font-style: italic;
+    }
+    .btn-participa{
+        background-color: #0ea0d5;
+        color: white;
+        border: 0;
+        position: absolute;
+        top: 70%;
+        left: 29%;
+        width: 11%;
+        font-size: 1vw;
+        font-weight: bold;
+        border-radius: 15px;
+        padding: 3px;
+    }
+    .btn-participa:focus{
+        outline:none;
+    }
+    .texto-permiso{
+        color: #ccd0d5;
+        position: absolute;
+        top: 75%;
+        left: 26%;
+        font-size: 1vw;
+    }
+}
+@media  screen and (max-width: 1025px) {
+    section{
+        .nube3{
+            display: none;
+        }
+        .gana{
+            left: 11%;
+            width: 150px;
+        }
+        .premier{
+            left: 11%;
+            width: 150px;
+        }
+        .crucero{
+            left: 11%;
+            width: 135px;
+        }
+        .letterY{
+            left: 11%;
+            width: 150px;
+            font-size: 0.8rem;
+        }
+        .texto-crucero{
+            left: 5%;
+            font-size: 11px;
+            width:29%
+        }
+        .btn-participa{
+            left: 11%;
+            font-size: 0.7rem;
+            width: 145px;
+        }
+        .texto-permiso{
+            left: 9%;
+            font-size: 0.7rem;
+        }
+    }
+}
+@media  screen and (max-width: 769px) {
+    section{
+        .nube2{
+            right:0%;
+        }
+        .texto-crucero{
+            display: none;
+        }
+    }
+}
+@media  screen and (max-width: 640px) {
+    section{
+        .nube2{
+            display:none;
+        }
+    }
+}
+@media  screen and (max-width: 480px) {
+    section{
+        .texto-permiso{
+            left: 10%;
+            font-size: 0.6rem;
+        }
+    }   
+}
