@@ -1,7 +1,7 @@
-import caribe from '../Images/d1.jpg';
-import alaska from '../Images/d2.jpg';
-import europa from '../Images/d3.jpg';
-import hawaii from '../Images/d4.jpg';
+import caribe from '../Images/d1.webp';
+import alaska from '../Images/d2.webp';
+import europa from '../Images/d3.webp';
+import hawaii from '../Images/d4.webp';
 
 
 export  const arrayAwards = [

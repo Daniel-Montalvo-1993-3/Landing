@@ -3,7 +3,7 @@ import './crucero.scss'
 import nube from '../../Images/nube.svg'
 import gana from '../../Images/crucero-gana.svg'
 import premier from '../../Images/logopremier.svg'
-import crucero from '../../Images/cruceroslinea.png'
+import crucero from '../../Images/cruceroslinea.webp'
 
 class Crucero extends Component {
     render() { 

@@ -1,7 +1,7 @@
 import landing1 from '../Images/home.webp';
-import landing2 from '../Images/registro.png';
-import landing3 from '../Images/bases.jpg';
-import landing4 from '../Images/premio.png';
+import landing2 from '../Images/registro.webp';
+import landing3 from '../Images/bases.webp';
+import landing4 from '../Images/premio.webp';
 
 export const firstLanding = {
   id: 'home',
