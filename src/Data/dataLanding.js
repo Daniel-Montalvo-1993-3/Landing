@@ -1,4 +1,4 @@
-import landing1 from '../Images/home.jpg';
+import landing1 from '../Images/home.webp';
 import landing2 from '../Images/registro.png';
 import landing3 from '../Images/bases.jpg';
 import landing4 from '../Images/premio.png';
@@ -25,7 +25,7 @@ export const secondLanding = {
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
-    marginTop: '-25px'
+    marginTop: '-25px' 
   }
 }
 
