@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './cardPremio.scss'
 import arrayAwards from '../../Data/dataAwardsCards'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 class CardPremio extends Component {
     renderCards = () => {
@@ -8,7 +10,7 @@ class CardPremio extends Component {
             arrayAwards.map((card,index) => {
                 return(
                     <div key={index} className="card-award">
-                        <img src={card.image} alt={card.title} className="img-awards"/>
+                        <LazyLoadImage effect="blur" src={card.image} alt={card.title} className="img-awards"/>
                         <p className="title-card-award">{card.title}</p>
                         <p className="text-card-description">{card.description}</p>
                     </div>
