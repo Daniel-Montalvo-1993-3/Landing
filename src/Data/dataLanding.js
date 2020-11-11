@@ -1,59 +1,21 @@
-import landing1 from '../Images/home.webp';
-import landing2 from '../Images/registro.webp';
-import landing3 from '../Images/bases.webp';
-import landing4 from '../Images/premio.webp';
 
 export const firstLanding = {
   id: 'home',
-  variantStyle: {
-    height: '110vh',
-    width: '100%',
-    backgroundImage: `url(${landing1})`,
-    backgroundAttachment: 'fixed',
-    backgroundPosition: 'center top',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover'
-  }
+  clase: 'homeLanding'
 }
 
 export const secondLanding = {
   id: 'registro',
-  variantStyle: {
-    height: '100vh',
-    width: '100%',
-    backgroundImage: `url(${landing2})`,
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-    marginTop: '-25px' 
-  }
+  clase: 'registroLanding'
 }
 
 export const thirdLanding = {
   id: 'bases',
-  variantStyle: {
-    height: '120vh',
-    width: '100%',
-    backgroundImage: `url(${landing3})`,
-    backgroundAttachment: 'fixed',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-    marginTop: '-130px'
-  }
+  clase: 'basesLanding'
 }
 
 
 export const fourthLanding = {
   id: 'premio',
-  variantStyle: {
-    height: '100vh',
-    width: '100%',
-    backgroundImage: `url(${landing4})`,
-    backgroundAttachment: 'fixed',
-    backgroundPosition: 'revert',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-    marginTop: '-130px'
-  }
+  clase: 'premioLanding'
 }

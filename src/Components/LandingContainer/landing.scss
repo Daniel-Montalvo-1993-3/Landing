@@ -1,0 +1,52 @@
+.homeLanding{
+height: 110vh;
+width: 100%;
+background-image: url('/Images/home.webp');
+background-attachment: fixed;
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.registroLanding{
+height: 100vh;
+width:100%;
+background-image: url('/Images/registro.webp');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: -25px;
+}
+.basesLanding{
+    height: 120vh;
+    width: 100%;
+    background-image: url('/Images/bases.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -130px;
+}
+.premioLanding{
+    height: 100vh;
+    width: 100%;
+    background-image: url('/Images/premio.webp');
+    background-attachment: fixed;
+    background-position: revert;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -130px;
+}
+@media screen and (max-width: 400px){
+    .basesLanding{
+        height:130vh;
+    }
+}
+
+@media  screen and (max-width: 335px) {
+    .homeLanding{
+        background-image: url('/Images/home-mobile.webp');
+    }
+    .registroLanding{
+        height:110vh;
+    }
+}
